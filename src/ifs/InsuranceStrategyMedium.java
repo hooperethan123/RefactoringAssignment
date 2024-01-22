@@ -1,18 +1,18 @@
 package ifs;
 
-public class InsuranceStrategyVeryHigh extends InsuranceStrategy {
-
+public class InsuranceStrategyMedium extends InsuranceStrategy {
     @Override
     public int getConstant() {
-        return 105600;
-    }
-    @Override
-    public double getWeight() {
-        return 0.02;
-    }
-    @Override
-    public int getAdjustment() {
-        return 60000;
+        return 35600;
     }
 
+    @Override
+    public double getWeight() {
+        return 0.2;
+    }
+
+    @Override
+    public int getAdjustment() {
+        return 10000;
+    }
 }
